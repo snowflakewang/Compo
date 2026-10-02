@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 align="center">
-  From Prompting to <span style="color:#f2b36d;">Compo</span>sing:<br>A Spatial Canvas Interface for Poster Generation
+  From Prompting to <span style="color:#f2b36d;"><i>Compo</i></span>sing:<br>A Spatial Canvas Interface for Poster Generation
 </h1>
 
 <h3 align="center">
@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center" style="font-size: 1.1em; color: #555;">
-  <strong>Introducing Compo, a poster generation model adapted from a pretrained image editing model without task-specific architecture design to interpret Spatial Canvas Interface and their associated Text Specifications.</strong>
+  <strong>Introducing Compo, a poster generation model adapted from a pretrained image editing model without task-specific architecture design to interpret <i>Spatial Canvas Interface</i> and their associated <i>Text Specifications</i>.</strong>
 </p>
 
 <div align="center">
@@ -24,6 +24,7 @@
 </div>
 
 <p align="center" style="font-size: 0.9em; color: #666;">
+  <br>
   <sup>1</sup><a href="https://www.fudan.edu.cn/en/">Fudan University</a>&nbsp;&nbsp;
   <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>&nbsp;&nbsp;
   <sup>3</sup><a href="https://www.sydney.edu.au/">The University of Sydney</a><br>
