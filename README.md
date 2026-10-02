@@ -16,7 +16,7 @@
   <a href="#">Yitong Wang</a><sup>1,2*</sup>&nbsp;&nbsp;
   <a href="https://www.microsoft.com/en-us/research/people/fawe/">Fangyun Wei</a><sup>2*</sup>&nbsp;&nbsp;
   <a href="#">Jinjing Zhao</a><sup>3,2</sup>&nbsp;&nbsp;
-  <a href="#">Sirui Zhang</a><sup>2</sup>&nbsp;&nbsp;
+  <a href="#">Sirui Zhang</a><sup>2</sup><br>
   <a href="https://hongyanz.github.io/">Hongyang Zhang</a><sup>4</sup>&nbsp;&nbsp;
   <a href="https://www.microsoft.com/en-us/research/people/doch/">Dong Chen</a><sup>2</sup>&nbsp;&nbsp;
   <a href="https://datascience.hku.hk/people/bo-dai/">Bo Dai</a><sup>5</sup><sup>&dagger;</sup>&nbsp;&nbsp;
@@ -26,7 +26,7 @@
 <p align="center" style="font-size: 0.9em; color: #666;">
   <sup>1</sup><a href="https://www.fudan.edu.cn/en/">Fudan University</a>&nbsp;&nbsp;
   <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>&nbsp;&nbsp;
-  <sup>3</sup><a href="https://www.sydney.edu.au/">The University of Sydney</a>&nbsp;&nbsp;
+  <sup>3</sup><a href="https://www.sydney.edu.au/">The University of Sydney</a><br>
   <sup>4</sup><a href="https://uwaterloo.ca/">University of Waterloo</a>&nbsp;&nbsp;
   <sup>5</sup><a href="https://www.hku.hk/">The University of Hong Kong</a>
   <br>
