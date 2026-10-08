@@ -9,17 +9,17 @@
 </h3>
 
 <p align="center" style="font-size: 1.1em; color: #555;">
-  <strong>Introducing Compo, a poster generation model adapted from a pretrained image editing model without task-specific architecture design to interpret <i>Spatial Canvas Interface</i> and their associated <i>Text Specifications</i>.</strong>
+  Introducing <strong>Compo</strong>, a poster generation model adapted from a pretrained image editing model without task-specific architecture design to interpret <i>Spatial Canvas Interface</i> and their associated <i>Text Specifications</i>.
 </p>
 
 <div align="center">
   <a href="#">Yitong Wang</a><sup>1,2*</sup>&nbsp;&nbsp;
   <a href="https://www.microsoft.com/en-us/research/people/fawe/">Fangyun Wei</a><sup>2*</sup>&nbsp;&nbsp;
   <a href="#">Jinjing Zhao</a><sup>3,2</sup>&nbsp;&nbsp;
-  <a href="#">Sirui Zhang</a><sup>2</sup><br>
-  <a href="https://hongyanz.github.io/">Hongyang Zhang</a><sup>4</sup>&nbsp;&nbsp;
+  <a href="#">Sirui Zhang</a><sup>4,2</sup><br>
+  <a href="https://hongyanz.github.io/">Hongyang Zhang</a><sup>5</sup>&nbsp;&nbsp;
   <a href="https://www.microsoft.com/en-us/research/people/doch/">Dong Chen</a><sup>2</sup>&nbsp;&nbsp;
-  <a href="https://datascience.hku.hk/people/bo-dai/">Bo Dai</a><sup>5</sup><sup>&dagger;</sup>&nbsp;&nbsp;
+  <a href="https://datascience.hku.hk/people/bo-dai/">Bo Dai</a><sup>6</sup><sup>&dagger;</sup>&nbsp;&nbsp;
   <a href="https://www.microsoft.com/en-us/research/people/yanlu/">Yan Lu</a><sup>2</sup>
 </div>
 
@@ -28,8 +28,9 @@
   <sup>1</sup><a href="https://www.fudan.edu.cn/en/">Fudan University</a>&nbsp;&nbsp;
   <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>&nbsp;&nbsp;
   <sup>3</sup><a href="https://www.sydney.edu.au/">The University of Sydney</a><br>
-  <sup>4</sup><a href="https://uwaterloo.ca/">University of Waterloo</a>&nbsp;&nbsp;
-  <sup>5</sup><a href="https://www.hku.hk/">The University of Hong Kong</a>
+  <sup>4</sup><a href="https://en.ustc.edu.cn/">USTC</a>&nbsp;&nbsp;
+  <sup>5</sup><a href="https://uwaterloo.ca/">University of Waterloo</a>&nbsp;&nbsp;
+  <sup>6</sup><a href="https://www.hku.hk/">The University of Hong Kong</a>
   <br>
   <small><sup>*</sup>Equal Contribution</small>
   <small><sup>&dagger;</sup>Corresponding Author</small>
@@ -48,6 +49,10 @@
 
 ## 📖 Abstract
 
+<div align="center">
+  <img src="./assets/teaser.jpg" width="100%" alt="Compo Teaser"/>
+</div>
+
 Text prompting is an indirect interface for poster generation, requiring users to encode inherently two-dimensional composition intent into a one-dimensional sequence of words.
 We introduce a <strong>Spatial Canvas Interface</strong> that enables users to directly compose generation intent in space through four complementary binding types: semantic, identity, text, and pixel, together with Text Specifications for individual elements and global appearance.
 Based on this interface, we develop <strong>Compo</strong>, a poster generation model adapted from a pretrained image editing model to understand Spatial Canvas inputs and Text Specifications.
@@ -56,10 +61,6 @@ To train Compo, we develop a scalable pipeline that automatically constructs sup
 We further introduce a benchmark that evaluates adherence to individual binding types and their joint composition.
 Experiments show that Compo achieves stronger compositional controllability than both general-purpose image generation models and dedicated poster generation systems while maintaining high visual quality.
 By decoupling intent specification from visual generation, our work shifts poster generation from <em>prompting</em> toward <em>composing</em>.
-
-<div align="center">
-  <img src="./assets/teaser.jpg" width="100%" alt="Compo Teaser"/>
-</div>
 
 ## 🔮 Citation
 
