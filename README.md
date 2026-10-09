@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  arXiv 2026
+  arXiv 2610.12230
 </h3>
 
 <p align="center" style="font-size: 1.1em; color: #555;">
@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?style=flat&labelColor=555555&logo=arxiv&logoColor=white" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2610.12230"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?style=flat&labelColor=555555&logo=arxiv&logoColor=white" alt="arXiv"></a>
   <a href="https://snowflakewang.github.io/Compo-Page/"><img src="https://img.shields.io/badge/Project-Page-4F46E5?style=flat&labelColor=555555&logo=googlechrome&logoColor=white" alt="Project Page"></a>
   <a href="https://github.com/snowflakewang/Compo"><img src="https://img.shields.io/badge/Code-GitHub-181717?style=flat&labelColor=555555&logo=github&logoColor=white" alt="Code"></a>
   <!-- <a href="https://huggingface.co/SnowflakeWang/Compo"><img src="https://img.shields.io/badge/Model-Weights-FFD21E?style=flat&labelColor=555555&logo=huggingface&logoColor=FFD21E" alt="Model"></a> -->
@@ -65,7 +65,15 @@ By decoupling intent specification from visual generation, our work shifts poste
 ## 🔮 Citation
 
 ```bibtex
-TBD
+@misc{wang2026compo,
+      title={From Prompting to Composing: A Spatial Canvas Interface for Poster Generation}, 
+      author={Yitong Wang and Fangyun Wei and Jinjing Zhao and Sirui Zhang and Hongyang Zhang and Dong Chen and Bo Dai and Yan Lu},
+      year={2026},
+      eprint={2610.12230},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.12230}, 
+}
 ```
 
 ## 💐 Acknowledgements
@@ -84,4 +92,4 @@ TBD
 
 ## 📄 License
 
-This project is licensed under the [CC BY-SA 4.0 License](http://creativecommons.org/licenses/by-sa/4.0/).
+This project is licensed under the [MIT License](https://mit-license.org/).
